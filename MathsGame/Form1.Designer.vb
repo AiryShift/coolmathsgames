@@ -33,6 +33,7 @@ Partial Class mainScreen
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.PictureBox7 = New System.Windows.Forms.PictureBox()
+        Me.help = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -53,9 +54,9 @@ Partial Class mainScreen
         '
         'friendlyExit
         '
-        Me.friendlyExit.Location = New System.Drawing.Point(1177, 647)
+        Me.friendlyExit.Location = New System.Drawing.Point(1090, 647)
         Me.friendlyExit.Name = "friendlyExit"
-        Me.friendlyExit.Size = New System.Drawing.Size(75, 23)
+        Me.friendlyExit.Size = New System.Drawing.Size(170, 23)
         Me.friendlyExit.TabIndex = 1
         Me.friendlyExit.Text = "Exit"
         Me.friendlyExit.UseVisualStyleBackColor = True
@@ -72,18 +73,18 @@ Partial Class mainScreen
         '
         'practice
         '
-        Me.practice.Location = New System.Drawing.Point(558, 647)
+        Me.practice.Location = New System.Drawing.Point(444, 647)
         Me.practice.Name = "practice"
-        Me.practice.Size = New System.Drawing.Size(75, 23)
+        Me.practice.Size = New System.Drawing.Size(170, 23)
         Me.practice.TabIndex = 3
         Me.practice.Text = "Practice"
         Me.practice.UseVisualStyleBackColor = True
         '
         'quiz
         '
-        Me.quiz.Location = New System.Drawing.Point(649, 647)
+        Me.quiz.Location = New System.Drawing.Point(666, 649)
         Me.quiz.Name = "quiz"
-        Me.quiz.Size = New System.Drawing.Size(75, 23)
+        Me.quiz.Size = New System.Drawing.Size(170, 23)
         Me.quiz.TabIndex = 4
         Me.quiz.Text = "Quiz"
         Me.quiz.UseVisualStyleBackColor = True
@@ -136,12 +137,22 @@ Partial Class mainScreen
         Me.PictureBox7.TabIndex = 10
         Me.PictureBox7.TabStop = False
         '
+        'help
+        '
+        Me.help.Location = New System.Drawing.Point(0, 649)
+        Me.help.Name = "help"
+        Me.help.Size = New System.Drawing.Size(170, 23)
+        Me.help.TabIndex = 11
+        Me.help.Text = "Help and About"
+        Me.help.UseVisualStyleBackColor = True
+        '
         'mainScreen
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1264, 682)
+        Me.Controls.Add(Me.help)
         Me.Controls.Add(Me.PictureBox7)
         Me.Controls.Add(Me.PictureBox6)
         Me.Controls.Add(Me.PictureBox5)
@@ -177,5 +188,6 @@ Partial Class mainScreen
     Friend WithEvents PictureBox5 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox6 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox7 As System.Windows.Forms.PictureBox
+    Friend WithEvents help As System.Windows.Forms.Button
 
 End Class
