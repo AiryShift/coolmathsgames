@@ -1,17 +1,17 @@
 ﻿Public Class practice
-    Const AREA_1 As String = "Square"
-    Const AREA_2 As String = ""
-    Const AREA_3 As String = ""
-    Const AREA_4 As String = ""
-    Const AREA_5 As String = ""
-    Const AREA_6 As String = ""
+    Const AREA_1 As String = "Circle"
+    Const AREA_2 As String = "Triangle"
+    Const AREA_3 As String = "Rectangle"
+    Const AREA_4 As String = "Trapezium"
+    Const AREA_5 As String = "Parallelogram"
+    Const AREA_6 As String = "Kite"
 
-    Const VOLUME_1 As String = ""
-    Const VOLUME_2 As String = ""
-    Const VOLUME_3 As String = ""
-    Const VOLUME_4 As String = ""
-    Const VOLUME_5 As String = ""
-    Const VOLUME_6 As String = ""
+    Const VOLUME_1 As String = "Cylinder"
+    Const VOLUME_2 As String = "Triangular Pyramid"
+    Const VOLUME_3 As String = "Rectangular Prism"
+    Const VOLUME_4 As String = "Sphere"
+    Const VOLUME_5 As String = "Triangular Prism"
+    Const VOLUME_6 As String = "Icosahedron"
 
     Private Sub area_Click(sender As Object, e As EventArgs) Handles area.Click
         shape1.Text = AREA_1
