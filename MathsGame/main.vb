@@ -3,7 +3,7 @@
     Dim isExiting As Boolean = False
 
     Private Sub friendlyExit_Click(sender As Object, e As EventArgs) Handles friendlyExit.Click
-
+        exitForm.ShowDialog()
     End Sub
 
     Private Sub practice_Click(sender As Object, e As EventArgs) Handles practice.Click
