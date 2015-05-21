@@ -1,4 +1,4 @@
-﻿Public Class practice
+﻿Public Class practiceMain
 
     Const SELECTED_AREA As Integer = 0
     Const SELECTED_VOLUME As Integer = 1
@@ -17,7 +17,6 @@
         shape5.Text = GlobalVariables.AREA_5
         shape6.Text = GlobalVariables.AREA_6
         currentMode = SELECTED_AREA
-
     End Sub
 
     Private Sub volume_Click(sender As Object, e As EventArgs) Handles volume.Click
@@ -28,5 +27,65 @@
         shape5.Text = GlobalVariables.VOLUME_5
         shape6.Text = GlobalVariables.VOLUME_6
         currentMode = SELECTED_VOLUME
+    End Sub
+
+    Private Sub shape1_Click(sender As Object, e As EventArgs) Handles shape1.Click
+        If currentMode = SELECTED_AREA Then
+            GlobalVariables.currentShape = GlobalVariables.AREA_1
+        Else
+            GlobalVariables.currentShape = GlobalVariables.VOLUME_1
+        End If
+        Me.Hide()
+        practiceShape.Show()
+    End Sub
+
+    Private Sub shape2_Click(sender As Object, e As EventArgs) Handles shape2.Click
+        If currentMode = SELECTED_AREA Then
+            GlobalVariables.currentShape = GlobalVariables.AREA_2
+        Else
+            GlobalVariables.currentShape = GlobalVariables.VOLUME_2
+        End If
+        Me.Hide()
+        practiceShape.Show()
+    End Sub
+
+    Private Sub shape3_Click(sender As Object, e As EventArgs) Handles shape3.Click
+        If currentMode = SELECTED_AREA Then
+            GlobalVariables.currentShape = GlobalVariables.AREA_3
+        Else
+            GlobalVariables.currentShape = GlobalVariables.VOLUME_3
+        End If
+        Me.Hide()
+        practiceShape.Show()
+    End Sub
+
+    Private Sub shape4_Click(sender As Object, e As EventArgs) Handles shape4.Click
+        If currentMode = SELECTED_AREA Then
+            GlobalVariables.currentShape = GlobalVariables.AREA_4
+        Else
+            GlobalVariables.currentShape = GlobalVariables.VOLUME_4
+        End If
+        Me.Hide()
+        practiceShape.Show()
+    End Sub
+
+    Private Sub shape5_Click(sender As Object, e As EventArgs) Handles shape5.Click
+        If currentMode = SELECTED_AREA Then
+            GlobalVariables.currentShape = GlobalVariables.AREA_5
+        Else
+            GlobalVariables.currentShape = GlobalVariables.VOLUME_5
+        End If
+        Me.Hide()
+        practiceShape.Show()
+    End Sub
+
+    Private Sub shape6_Click(sender As Object, e As EventArgs) Handles shape6.Click
+        If currentMode = SELECTED_AREA Then
+            GlobalVariables.currentShape = GlobalVariables.AREA_6
+        Else
+            GlobalVariables.currentShape = GlobalVariables.VOLUME_6
+        End If
+        Me.Hide()
+        practiceShape.Show()
     End Sub
 End Class

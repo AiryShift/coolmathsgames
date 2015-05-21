@@ -8,7 +8,7 @@
 
     Private Sub practice_Click(sender As Object, e As EventArgs) Handles practice.Click
         Me.Hide()
-        practice.Show()
+        practiceMain.Show()
     End Sub
 
     Private Sub help_Click(sender As Object, e As EventArgs) Handles help.Click

@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class practice
+Partial Class practiceMain
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -104,7 +104,7 @@ Partial Class practice
         Me.shape6.Text = "Button6"
         Me.shape6.UseVisualStyleBackColor = True
         '
-        'practice
+        'practiceMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -117,7 +117,7 @@ Partial Class practice
         Me.Controls.Add(Me.shape1)
         Me.Controls.Add(Me.volume)
         Me.Controls.Add(Me.area)
-        Me.Name = "practice"
+        Me.Name = "practiceMain"
         Me.Text = "Practice"
         Me.ResumeLayout(False)
 

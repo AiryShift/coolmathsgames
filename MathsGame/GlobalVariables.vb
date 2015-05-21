@@ -14,6 +14,7 @@
     Public Const VOLUME_6 As String = "Icosahedron"
 
     Public Const PI As Double = 3.1415926535897931
+    Public Shared currentShape As String = ""
 
     Public Class MathFunctions
 
