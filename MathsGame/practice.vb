@@ -17,6 +17,7 @@
         shape5.Text = GlobalVariables.AREA_5
         shape6.Text = GlobalVariables.AREA_6
         currentMode = SELECTED_AREA
+
     End Sub
 
     Private Sub volume_Click(sender As Object, e As EventArgs) Handles volume.Click
