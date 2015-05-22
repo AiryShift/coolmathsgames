@@ -22,62 +22,62 @@
             Return CInt(Math.Round(answer))
         End Function
 
-        Public Function circleArea(radius As Double) As Integer
+        Public Function circleArea(radius As Integer) As Integer
             Dim answer As Double = PI * radius * radius
             Return formatAnswer(answer)
         End Function
 
-        Public Function triangleArea(height As Double, width As Double) As Integer
+        Public Function triangleArea(height As Integer, width As Integer) As Integer
             Dim answer As Double = height * width * 0.5
             Return formatAnswer(answer)
         End Function
 
-        Public Function rectangleArea(length As Double, width As Double) As Integer
+        Public Function rectangleArea(length As Integer, width As Integer) As Integer
             Dim answer As Double = length * width
             Return formatAnswer(answer)
         End Function
 
-        Public Function trapeziumArea(height As Double, side1 As Double, side2 As Double) As Integer
+        Public Function trapeziumArea(height As Integer, side1 As Integer, side2 As Integer) As Integer
             Dim answer As Double = 0.5 * height * (side1 + side2)
             Return formatAnswer(answer)
         End Function
 
-        Public Function parallelogramArea(base As Double, height As Double) As Integer
+        Public Function parallelogramArea(base As Integer, height As Integer) As Integer
             Dim answer As Double = base * height
             Return formatAnswer(answer)
         End Function
 
-        Public Function kiteArea(diagonal1 As Double, diagonal2 As Double) As Integer
+        Public Function kiteArea(diagonal1 As Integer, diagonal2 As Integer) As Integer
             Dim answer As Double = diagonal1 * diagonal2 * 0.5
             Return formatAnswer(answer)
         End Function
 
-        Public Function cylinderVolume(radius As Double, height As Double) As Integer
+        Public Function cylinderVolume(radius As Integer, height As Integer) As Integer
             Dim answer As Double = PI * Math.Pow(radius, 2) * height
             Return formatAnswer(answer)
         End Function
 
-        Public Function triangularPyramidVolume(baseHeight As Double, baseWidth As Double, height As Double) As Integer
+        Public Function triangularPyramidVolume(baseHeight As Integer, baseWidth As Integer, height As Integer) As Integer
             Dim answer As Double = baseHeight * baseWidth * 0.5 * height * (1 / 3)
             Return formatAnswer(answer)
         End Function
 
-        Public Function rectangularPrismVolume(length As Double, width As Double, height As Double) As Integer
+        Public Function rectangularPrismVolume(length As Integer, width As Integer, height As Integer) As Integer
             Dim answer As Double = length * width * height
             Return formatAnswer(answer)
         End Function
 
-        Public Function sphereVolume(radius As Double) As Integer
+        Public Function sphereVolume(radius As Integer) As Integer
             Dim answer As Double = 4 / 3 * PI * Math.Pow(radius, 3)
             Return formatAnswer(answer)
         End Function
 
-        Public Function triangularPrismVolume(base As Double, height As Double, length As Double) As Integer
+        Public Function triangularPrismVolume(base As Integer, height As Integer, length As Integer) As Integer
             Dim answer = base * height * 0.5 * length
             Return formatAnswer(answer)
         End Function
 
-        Public Function icosahedronVolume(edge As Double) As Integer
+        Public Function icosahedronVolume(edge As Integer) As Integer
             Dim answer = (5 * (3 + Math.Pow(5, 0.5)) / 12) * Math.Pow(edge, 3)
             Return formatAnswer(answer)
         End Function
