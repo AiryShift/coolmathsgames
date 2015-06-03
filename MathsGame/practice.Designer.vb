@@ -30,6 +30,18 @@ Partial Class practiceMain
         Me.shape4 = New System.Windows.Forms.Button()
         Me.shape5 = New System.Windows.Forms.Button()
         Me.shape6 = New System.Windows.Forms.Button()
+        Me.pbShape1 = New System.Windows.Forms.PictureBox()
+        Me.pbShape2 = New System.Windows.Forms.PictureBox()
+        Me.pbShape3 = New System.Windows.Forms.PictureBox()
+        Me.pbShape4 = New System.Windows.Forms.PictureBox()
+        Me.pbShape5 = New System.Windows.Forms.PictureBox()
+        Me.pbShape6 = New System.Windows.Forms.PictureBox()
+        CType(Me.pbShape1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbShape2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbShape3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbShape4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbShape5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbShape6, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'area
@@ -52,7 +64,7 @@ Partial Class practiceMain
         '
         'shape1
         '
-        Me.shape1.Location = New System.Drawing.Point(12, 224)
+        Me.shape1.Location = New System.Drawing.Point(134, 195)
         Me.shape1.Name = "shape1"
         Me.shape1.Size = New System.Drawing.Size(100, 23)
         Me.shape1.TabIndex = 2
@@ -61,7 +73,7 @@ Partial Class practiceMain
         '
         'shape2
         '
-        Me.shape2.Location = New System.Drawing.Point(12, 253)
+        Me.shape2.Location = New System.Drawing.Point(240, 195)
         Me.shape2.Name = "shape2"
         Me.shape2.Size = New System.Drawing.Size(100, 23)
         Me.shape2.TabIndex = 3
@@ -70,7 +82,7 @@ Partial Class practiceMain
         '
         'shape3
         '
-        Me.shape3.Location = New System.Drawing.Point(12, 282)
+        Me.shape3.Location = New System.Drawing.Point(346, 195)
         Me.shape3.Name = "shape3"
         Me.shape3.Size = New System.Drawing.Size(100, 23)
         Me.shape3.TabIndex = 4
@@ -79,7 +91,7 @@ Partial Class practiceMain
         '
         'shape4
         '
-        Me.shape4.Location = New System.Drawing.Point(12, 311)
+        Me.shape4.Location = New System.Drawing.Point(452, 195)
         Me.shape4.Name = "shape4"
         Me.shape4.Size = New System.Drawing.Size(100, 23)
         Me.shape4.TabIndex = 5
@@ -88,7 +100,7 @@ Partial Class practiceMain
         '
         'shape5
         '
-        Me.shape5.Location = New System.Drawing.Point(12, 340)
+        Me.shape5.Location = New System.Drawing.Point(558, 195)
         Me.shape5.Name = "shape5"
         Me.shape5.Size = New System.Drawing.Size(100, 23)
         Me.shape5.TabIndex = 6
@@ -97,18 +109,72 @@ Partial Class practiceMain
         '
         'shape6
         '
-        Me.shape6.Location = New System.Drawing.Point(12, 369)
+        Me.shape6.Location = New System.Drawing.Point(664, 195)
         Me.shape6.Name = "shape6"
         Me.shape6.Size = New System.Drawing.Size(100, 23)
         Me.shape6.TabIndex = 7
         Me.shape6.Text = "Button6"
         Me.shape6.UseVisualStyleBackColor = True
         '
+        'pbShape1
+        '
+        Me.pbShape1.Location = New System.Drawing.Point(134, 139)
+        Me.pbShape1.Name = "pbShape1"
+        Me.pbShape1.Size = New System.Drawing.Size(100, 50)
+        Me.pbShape1.TabIndex = 8
+        Me.pbShape1.TabStop = False
+        '
+        'pbShape2
+        '
+        Me.pbShape2.Location = New System.Drawing.Point(240, 139)
+        Me.pbShape2.Name = "pbShape2"
+        Me.pbShape2.Size = New System.Drawing.Size(100, 50)
+        Me.pbShape2.TabIndex = 9
+        Me.pbShape2.TabStop = False
+        '
+        'pbShape3
+        '
+        Me.pbShape3.Location = New System.Drawing.Point(346, 139)
+        Me.pbShape3.Name = "pbShape3"
+        Me.pbShape3.Size = New System.Drawing.Size(100, 50)
+        Me.pbShape3.TabIndex = 10
+        Me.pbShape3.TabStop = False
+        '
+        'pbShape4
+        '
+        Me.pbShape4.Location = New System.Drawing.Point(452, 139)
+        Me.pbShape4.Name = "pbShape4"
+        Me.pbShape4.Size = New System.Drawing.Size(100, 50)
+        Me.pbShape4.TabIndex = 11
+        Me.pbShape4.TabStop = False
+        '
+        'pbShape5
+        '
+        Me.pbShape5.Location = New System.Drawing.Point(558, 139)
+        Me.pbShape5.Name = "pbShape5"
+        Me.pbShape5.Size = New System.Drawing.Size(100, 50)
+        Me.pbShape5.TabIndex = 12
+        Me.pbShape5.TabStop = False
+        '
+        'pbShape6
+        '
+        Me.pbShape6.Location = New System.Drawing.Point(664, 139)
+        Me.pbShape6.Name = "pbShape6"
+        Me.pbShape6.Size = New System.Drawing.Size(100, 50)
+        Me.pbShape6.TabIndex = 13
+        Me.pbShape6.TabStop = False
+        '
         'practiceMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1264, 682)
+        Me.Controls.Add(Me.pbShape6)
+        Me.Controls.Add(Me.pbShape5)
+        Me.Controls.Add(Me.pbShape4)
+        Me.Controls.Add(Me.pbShape3)
+        Me.Controls.Add(Me.pbShape2)
+        Me.Controls.Add(Me.pbShape1)
         Me.Controls.Add(Me.shape6)
         Me.Controls.Add(Me.shape5)
         Me.Controls.Add(Me.shape4)
@@ -119,6 +185,12 @@ Partial Class practiceMain
         Me.Controls.Add(Me.area)
         Me.Name = "practiceMain"
         Me.Text = "Practice"
+        CType(Me.pbShape1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbShape2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbShape3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbShape4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbShape5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbShape6, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -130,4 +202,10 @@ Partial Class practiceMain
     Friend WithEvents shape4 As System.Windows.Forms.Button
     Friend WithEvents shape5 As System.Windows.Forms.Button
     Friend WithEvents shape6 As System.Windows.Forms.Button
+    Friend WithEvents pbShape1 As PictureBox
+    Friend WithEvents pbShape2 As PictureBox
+    Friend WithEvents pbShape3 As PictureBox
+    Friend WithEvents pbShape4 As PictureBox
+    Friend WithEvents pbShape5 As PictureBox
+    Friend WithEvents pbShape6 As PictureBox
 End Class
