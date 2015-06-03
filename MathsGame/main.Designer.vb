@@ -26,7 +26,6 @@ Partial Class mainScreen
         Me.friendlyExit = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.practice = New System.Windows.Forms.Button()
-        Me.quiz = New System.Windows.Forms.Button()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
@@ -73,21 +72,12 @@ Partial Class mainScreen
         '
         'practice
         '
-        Me.practice.Location = New System.Drawing.Point(444, 647)
+        Me.practice.Location = New System.Drawing.Point(222, 647)
         Me.practice.Name = "practice"
-        Me.practice.Size = New System.Drawing.Size(170, 23)
+        Me.practice.Size = New System.Drawing.Size(836, 23)
         Me.practice.TabIndex = 3
         Me.practice.Text = "Practice"
         Me.practice.UseVisualStyleBackColor = True
-        '
-        'quiz
-        '
-        Me.quiz.Location = New System.Drawing.Point(666, 649)
-        Me.quiz.Name = "quiz"
-        Me.quiz.Size = New System.Drawing.Size(170, 23)
-        Me.quiz.TabIndex = 4
-        Me.quiz.Text = "Quiz"
-        Me.quiz.UseVisualStyleBackColor = True
         '
         'PictureBox2
         '
@@ -159,7 +149,6 @@ Partial Class mainScreen
         Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.PictureBox2)
-        Me.Controls.Add(Me.quiz)
         Me.Controls.Add(Me.practice)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.friendlyExit)
@@ -181,7 +170,6 @@ Partial Class mainScreen
     Friend WithEvents friendlyExit As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents practice As System.Windows.Forms.Button
-    Friend WithEvents quiz As System.Windows.Forms.Button
     Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox3 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox4 As System.Windows.Forms.PictureBox

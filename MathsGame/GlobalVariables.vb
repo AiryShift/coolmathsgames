@@ -11,7 +11,7 @@
     Public Const VOLUME_3 As String = "Rectangular Prism"
     Public Const VOLUME_4 As String = "Sphere"
     Public Const VOLUME_5 As String = "Triangular Prism"
-    Public Const VOLUME_6 As String = "Icosahedron"
+    Public Const VOLUME_6 As String = "Cone"
 
     Public Const PI As Double = 3.1415926535897931
     Public Shared currentShape As String = ""
