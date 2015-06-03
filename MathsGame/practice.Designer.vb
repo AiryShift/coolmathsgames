@@ -46,121 +46,121 @@ Partial Class practiceMain
         '
         'area
         '
-        Me.area.Location = New System.Drawing.Point(12, 12)
+        Me.area.Location = New System.Drawing.Point(308, 12)
         Me.area.Name = "area"
-        Me.area.Size = New System.Drawing.Size(100, 100)
+        Me.area.Size = New System.Drawing.Size(308, 237)
         Me.area.TabIndex = 0
         Me.area.Text = "Select Area"
         Me.area.UseVisualStyleBackColor = True
         '
         'volume
         '
-        Me.volume.Location = New System.Drawing.Point(12, 118)
+        Me.volume.Location = New System.Drawing.Point(622, 12)
         Me.volume.Name = "volume"
-        Me.volume.Size = New System.Drawing.Size(100, 100)
+        Me.volume.Size = New System.Drawing.Size(308, 237)
         Me.volume.TabIndex = 1
         Me.volume.Text = "Select Volume"
         Me.volume.UseVisualStyleBackColor = True
         '
         'shape1
         '
-        Me.shape1.Location = New System.Drawing.Point(134, 195)
+        Me.shape1.Location = New System.Drawing.Point(25, 604)
         Me.shape1.Name = "shape1"
-        Me.shape1.Size = New System.Drawing.Size(100, 23)
+        Me.shape1.Size = New System.Drawing.Size(196, 23)
         Me.shape1.TabIndex = 2
         Me.shape1.Text = "Button1"
         Me.shape1.UseVisualStyleBackColor = True
         '
         'shape2
         '
-        Me.shape2.Location = New System.Drawing.Point(240, 195)
+        Me.shape2.Location = New System.Drawing.Point(227, 604)
         Me.shape2.Name = "shape2"
-        Me.shape2.Size = New System.Drawing.Size(100, 23)
+        Me.shape2.Size = New System.Drawing.Size(196, 23)
         Me.shape2.TabIndex = 3
         Me.shape2.Text = "Button2"
         Me.shape2.UseVisualStyleBackColor = True
         '
         'shape3
         '
-        Me.shape3.Location = New System.Drawing.Point(346, 195)
+        Me.shape3.Location = New System.Drawing.Point(429, 604)
         Me.shape3.Name = "shape3"
-        Me.shape3.Size = New System.Drawing.Size(100, 23)
+        Me.shape3.Size = New System.Drawing.Size(196, 23)
         Me.shape3.TabIndex = 4
         Me.shape3.Text = "Button3"
         Me.shape3.UseVisualStyleBackColor = True
         '
         'shape4
         '
-        Me.shape4.Location = New System.Drawing.Point(452, 195)
+        Me.shape4.Location = New System.Drawing.Point(631, 604)
         Me.shape4.Name = "shape4"
-        Me.shape4.Size = New System.Drawing.Size(100, 23)
+        Me.shape4.Size = New System.Drawing.Size(196, 23)
         Me.shape4.TabIndex = 5
         Me.shape4.Text = "Button4"
         Me.shape4.UseVisualStyleBackColor = True
         '
         'shape5
         '
-        Me.shape5.Location = New System.Drawing.Point(558, 195)
+        Me.shape5.Location = New System.Drawing.Point(833, 604)
         Me.shape5.Name = "shape5"
-        Me.shape5.Size = New System.Drawing.Size(100, 23)
+        Me.shape5.Size = New System.Drawing.Size(196, 23)
         Me.shape5.TabIndex = 6
         Me.shape5.Text = "Button5"
         Me.shape5.UseVisualStyleBackColor = True
         '
         'shape6
         '
-        Me.shape6.Location = New System.Drawing.Point(664, 195)
+        Me.shape6.Location = New System.Drawing.Point(1035, 604)
         Me.shape6.Name = "shape6"
-        Me.shape6.Size = New System.Drawing.Size(100, 23)
+        Me.shape6.Size = New System.Drawing.Size(196, 23)
         Me.shape6.TabIndex = 7
         Me.shape6.Text = "Button6"
         Me.shape6.UseVisualStyleBackColor = True
         '
         'pbShape1
         '
-        Me.pbShape1.Location = New System.Drawing.Point(134, 139)
+        Me.pbShape1.Location = New System.Drawing.Point(25, 548)
         Me.pbShape1.Name = "pbShape1"
-        Me.pbShape1.Size = New System.Drawing.Size(100, 50)
+        Me.pbShape1.Size = New System.Drawing.Size(196, 50)
         Me.pbShape1.TabIndex = 8
         Me.pbShape1.TabStop = False
         '
         'pbShape2
         '
-        Me.pbShape2.Location = New System.Drawing.Point(240, 139)
+        Me.pbShape2.Location = New System.Drawing.Point(227, 548)
         Me.pbShape2.Name = "pbShape2"
-        Me.pbShape2.Size = New System.Drawing.Size(100, 50)
+        Me.pbShape2.Size = New System.Drawing.Size(196, 50)
         Me.pbShape2.TabIndex = 9
         Me.pbShape2.TabStop = False
         '
         'pbShape3
         '
-        Me.pbShape3.Location = New System.Drawing.Point(346, 139)
+        Me.pbShape3.Location = New System.Drawing.Point(429, 548)
         Me.pbShape3.Name = "pbShape3"
-        Me.pbShape3.Size = New System.Drawing.Size(100, 50)
+        Me.pbShape3.Size = New System.Drawing.Size(196, 50)
         Me.pbShape3.TabIndex = 10
         Me.pbShape3.TabStop = False
         '
         'pbShape4
         '
-        Me.pbShape4.Location = New System.Drawing.Point(452, 139)
+        Me.pbShape4.Location = New System.Drawing.Point(631, 548)
         Me.pbShape4.Name = "pbShape4"
-        Me.pbShape4.Size = New System.Drawing.Size(100, 50)
+        Me.pbShape4.Size = New System.Drawing.Size(196, 50)
         Me.pbShape4.TabIndex = 11
         Me.pbShape4.TabStop = False
         '
         'pbShape5
         '
-        Me.pbShape5.Location = New System.Drawing.Point(558, 139)
+        Me.pbShape5.Location = New System.Drawing.Point(833, 548)
         Me.pbShape5.Name = "pbShape5"
-        Me.pbShape5.Size = New System.Drawing.Size(100, 50)
+        Me.pbShape5.Size = New System.Drawing.Size(196, 50)
         Me.pbShape5.TabIndex = 12
         Me.pbShape5.TabStop = False
         '
         'pbShape6
         '
-        Me.pbShape6.Location = New System.Drawing.Point(664, 139)
+        Me.pbShape6.Location = New System.Drawing.Point(1035, 548)
         Me.pbShape6.Name = "pbShape6"
-        Me.pbShape6.Size = New System.Drawing.Size(100, 50)
+        Me.pbShape6.Size = New System.Drawing.Size(196, 50)
         Me.pbShape6.TabIndex = 13
         Me.pbShape6.TabStop = False
         '

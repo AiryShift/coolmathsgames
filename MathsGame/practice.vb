@@ -4,7 +4,7 @@
     Const SELECTED_VOLUME As Integer = 1
     Dim currentMode As Integer = SELECTED_AREA
 
-    Private Sub area_Open(sender As Object, e As EventArgs) Handles Me.GotFocus
+    Private Sub area_Open(sender As Object, e As EventArgs) Handles Me.Load
         area.PerformClick()
         currentMode = SELECTED_AREA
     End Sub

@@ -11,8 +11,8 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyTitle("Cool Maths Game")> 
 <Assembly: AssemblyDescription("Contact me at religionofaperturelabs@gmail.com")> 
 <Assembly: AssemblyCompany("Julian Tu")> 
-<Assembly: AssemblyProduct("Cool Maths Game")> 
-<Assembly: AssemblyCopyright("Apache License 2.0")> 
+<Assembly: AssemblyProduct("Cool Maths Game")>
+<Assembly: AssemblyCopyright("Public Domain")>
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>
