@@ -77,8 +77,8 @@
             Return formatAnswer(answer)
         End Function
 
-        Public Function icosahedronVolume(edge As Integer) As Integer
-            Dim answer = (5 * (3 + Math.Pow(5, 0.5)) / 12) * Math.Pow(edge, 3)
+        Public Function sphereVolume(radius As Integer, height As Integer) As Integer
+            Dim answer = PI * Math.Pow(radius, 2) * height / 3
             Return formatAnswer(answer)
         End Function
     End Class
