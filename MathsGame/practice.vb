@@ -36,7 +36,6 @@
             GlobalVariables.currentShape = GlobalVariables.VOLUME_1
         End If
         Me.Hide()
-        practiceShape.Show()
     End Sub
 
     Private Sub shape2_Click(sender As Object, e As EventArgs) Handles shape2.Click
@@ -46,7 +45,6 @@
             GlobalVariables.currentShape = GlobalVariables.VOLUME_2
         End If
         Me.Hide()
-        practiceShape.Show()
     End Sub
 
     Private Sub shape3_Click(sender As Object, e As EventArgs) Handles shape3.Click
@@ -56,7 +54,6 @@
             GlobalVariables.currentShape = GlobalVariables.VOLUME_3
         End If
         Me.Hide()
-        practiceShape.Show()
     End Sub
 
     Private Sub shape4_Click(sender As Object, e As EventArgs) Handles shape4.Click
@@ -66,7 +63,6 @@
             GlobalVariables.currentShape = GlobalVariables.VOLUME_4
         End If
         Me.Hide()
-        practiceShape.Show()
     End Sub
 
     Private Sub shape5_Click(sender As Object, e As EventArgs) Handles shape5.Click
@@ -76,7 +72,6 @@
             GlobalVariables.currentShape = GlobalVariables.VOLUME_5
         End If
         Me.Hide()
-        practiceShape.Show()
     End Sub
 
     Private Sub shape6_Click(sender As Object, e As EventArgs) Handles shape6.Click
@@ -86,6 +81,5 @@
             GlobalVariables.currentShape = GlobalVariables.VOLUME_6
         End If
         Me.Hide()
-        practiceShape.Show()
     End Sub
 End Class
