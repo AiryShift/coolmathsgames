@@ -145,4 +145,22 @@ Public Class pracMaster
                 answer.Text = myMath.coneVolume(a, b)
         End Select
     End Sub
+
+    Private Sub info_Click(sender As Object, e As EventArgs) Handles Me.VisibleChanged
+        Select Case GlobalVariables.currentShape
+            Case GlobalVariables.AREA_1 'Circle
+            Case GlobalVariables.AREA_2 'Triangle
+            Case GlobalVariables.AREA_3 'Rectangle
+            Case GlobalVariables.AREA_4 'Trapezium
+            Case GlobalVariables.AREA_5 'Parallelogram
+            Case GlobalVariables.AREA_6 'Kite
+
+            Case GlobalVariables.VOLUME_1 'Cylinder
+            Case GlobalVariables.VOLUME_2 'RectangularPyramid"
+            Case GlobalVariables.VOLUME_3 'RectangularPrism"
+            Case GlobalVariables.VOLUME_4 'Sphere
+            Case GlobalVariables.VOLUME_5 'TrapezoidalPrism
+            Case GlobalVariables.VOLUME_6 'Cone
+        End Select
+    End Sub
 End Class

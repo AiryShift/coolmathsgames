@@ -24,20 +24,20 @@ Partial Class pracMaster
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(pracMaster))
         Me.back = New System.Windows.Forms.Button()
-        Me.shapeDesc = New System.Windows.Forms.PictureBox()
-        Me.shapeFormula = New System.Windows.Forms.PictureBox()
         Me.txtInput1 = New System.Windows.Forms.TextBox()
         Me.txtInput3 = New System.Windows.Forms.TextBox()
         Me.txtInput2 = New System.Windows.Forms.TextBox()
         Me.lblInput1 = New System.Windows.Forms.Label()
         Me.lblInput2 = New System.Windows.Forms.Label()
         Me.lblInput3 = New System.Windows.Forms.Label()
-        Me.info = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.answer = New System.Windows.Forms.Label()
-        CType(Me.shapeDesc, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.shapeFormula, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.info = New System.Windows.Forms.PictureBox()
+        Me.shapeFormula = New System.Windows.Forms.PictureBox()
+        Me.shapeDesc = New System.Windows.Forms.PictureBox()
         CType(Me.info, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.shapeFormula, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.shapeDesc, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'back
@@ -48,24 +48,6 @@ Partial Class pracMaster
         Me.back.TabIndex = 0
         Me.back.Text = "Back"
         Me.back.UseVisualStyleBackColor = True
-        '
-        'shapeDesc
-        '
-        Me.shapeDesc.Location = New System.Drawing.Point(802, 12)
-        Me.shapeDesc.Name = "shapeDesc"
-        Me.shapeDesc.Size = New System.Drawing.Size(450, 450)
-        Me.shapeDesc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.shapeDesc.TabIndex = 1
-        Me.shapeDesc.TabStop = False
-        '
-        'shapeFormula
-        '
-        Me.shapeFormula.Location = New System.Drawing.Point(802, 468)
-        Me.shapeFormula.Name = "shapeFormula"
-        Me.shapeFormula.Size = New System.Drawing.Size(450, 95)
-        Me.shapeFormula.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.shapeFormula.TabIndex = 2
-        Me.shapeFormula.TabStop = False
         '
         'txtInput1
         '
@@ -115,14 +97,6 @@ Partial Class pracMaster
         Me.lblInput3.TabIndex = 8
         Me.lblInput3.Text = "Label3"
         '
-        'info
-        '
-        Me.info.Location = New System.Drawing.Point(12, 12)
-        Me.info.Name = "info"
-        Me.info.Size = New System.Drawing.Size(784, 450)
-        Me.info.TabIndex = 9
-        Me.info.TabStop = False
-        '
         'Label1
         '
         Me.Label1.AutoSize = True
@@ -141,6 +115,34 @@ Partial Class pracMaster
         Me.answer.Size = New System.Drawing.Size(18, 20)
         Me.answer.TabIndex = 11
         Me.answer.Text = "0"
+        '
+        'info
+        '
+        Me.info.Image = CType(resources.GetObject("info.Image"), System.Drawing.Image)
+        Me.info.Location = New System.Drawing.Point(12, 12)
+        Me.info.Name = "info"
+        Me.info.Size = New System.Drawing.Size(784, 450)
+        Me.info.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.info.TabIndex = 9
+        Me.info.TabStop = False
+        '
+        'shapeFormula
+        '
+        Me.shapeFormula.Location = New System.Drawing.Point(802, 468)
+        Me.shapeFormula.Name = "shapeFormula"
+        Me.shapeFormula.Size = New System.Drawing.Size(450, 95)
+        Me.shapeFormula.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.shapeFormula.TabIndex = 2
+        Me.shapeFormula.TabStop = False
+        '
+        'shapeDesc
+        '
+        Me.shapeDesc.Location = New System.Drawing.Point(802, 12)
+        Me.shapeDesc.Name = "shapeDesc"
+        Me.shapeDesc.Size = New System.Drawing.Size(450, 450)
+        Me.shapeDesc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.shapeDesc.TabIndex = 1
+        Me.shapeDesc.TabStop = False
         '
         'pracMaster
         '
@@ -163,9 +165,9 @@ Partial Class pracMaster
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "pracMaster"
         Me.Text = "Try this shape!"
-        CType(Me.shapeDesc, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.shapeFormula, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.info, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.shapeFormula, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.shapeDesc, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
