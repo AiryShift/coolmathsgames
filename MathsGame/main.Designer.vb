@@ -83,6 +83,7 @@ Partial Class mainScreen
         '
         'PictureBox7
         '
+        Me.PictureBox7.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox7.Location = New System.Drawing.Point(1090, 577)
         Me.PictureBox7.Name = "PictureBox7"
         Me.PictureBox7.Size = New System.Drawing.Size(170, 66)
@@ -91,6 +92,7 @@ Partial Class mainScreen
         '
         'PictureBox6
         '
+        Me.PictureBox6.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox6.Location = New System.Drawing.Point(888, 577)
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.Size = New System.Drawing.Size(170, 66)
@@ -99,6 +101,7 @@ Partial Class mainScreen
         '
         'PictureBox5
         '
+        Me.PictureBox5.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox5.Location = New System.Drawing.Point(666, 577)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(170, 66)
@@ -107,6 +110,7 @@ Partial Class mainScreen
         '
         'PictureBox4
         '
+        Me.PictureBox4.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox4.Location = New System.Drawing.Point(444, 577)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(170, 66)
@@ -115,6 +119,7 @@ Partial Class mainScreen
         '
         'PictureBox3
         '
+        Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox3.Location = New System.Drawing.Point(222, 577)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(170, 66)
@@ -123,6 +128,7 @@ Partial Class mainScreen
         '
         'PictureBox2
         '
+        Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox2.Location = New System.Drawing.Point(0, 577)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(170, 66)
