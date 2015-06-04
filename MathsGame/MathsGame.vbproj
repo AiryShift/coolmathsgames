@@ -188,16 +188,16 @@
     <Compile Include="pracTriangle.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="pracTriangularPrism.Designer.vb">
-      <DependentUpon>pracTriangularPrism.vb</DependentUpon>
+    <Compile Include="pracTrapezoidalPrism.Designer.vb">
+      <DependentUpon>pracTrapezoidalPrism.vb</DependentUpon>
     </Compile>
-    <Compile Include="pracTriangularPrism.vb">
+    <Compile Include="pracTrapezoidalPrism.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="pracTriangularPyramid.Designer.vb">
-      <DependentUpon>pracTriangularPyramid.vb</DependentUpon>
+    <Compile Include="pracRectangularPyramid.Designer.vb">
+      <DependentUpon>pracRectangularPyramid.vb</DependentUpon>
     </Compile>
-    <Compile Include="pracTriangularPyramid.vb">
+    <Compile Include="pracRectangularPyramid.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
@@ -250,11 +250,11 @@
     <EmbeddedResource Include="pracTriangle.resx">
       <DependentUpon>pracTriangle.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="pracTriangularPrism.resx">
-      <DependentUpon>pracTriangularPrism.vb</DependentUpon>
+    <EmbeddedResource Include="pracTrapezoidalPrism.resx">
+      <DependentUpon>pracTrapezoidalPrism.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="pracTriangularPyramid.resx">
-      <DependentUpon>pracTriangularPyramid.vb</DependentUpon>
+    <EmbeddedResource Include="pracRectangularPyramid.resx">
+      <DependentUpon>pracRectangularPyramid.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

@@ -7,10 +7,10 @@
     Public Const AREA_6 As String = "Kite"
 
     Public Const VOLUME_1 As String = "Cylinder"
-    Public Const VOLUME_2 As String = "Triangular Pyramid"
+    Public Const VOLUME_2 As String = "Rectangular Pyramid"
     Public Const VOLUME_3 As String = "Rectangular Prism"
     Public Const VOLUME_4 As String = "Sphere"
-    Public Const VOLUME_5 As String = "Triangular Prism"
+    Public Const VOLUME_5 As String = "Trapezoidal Prism"
     Public Const VOLUME_6 As String = "Cone"
 
     Public Const PI As Double = 3.1415926535897931
@@ -57,8 +57,8 @@
             Return formatAnswer(answer)
         End Function
 
-        Public Function triangularPyramidVolume(baseHeight As Integer, baseWidth As Integer, height As Integer) As Integer
-            Dim answer As Double = baseHeight * baseWidth * 0.5 * height * (1 / 3)
+        Public Function rectangularPyramidVolume(baseHeight As Integer, baseWidth As Integer, height As Integer) As Integer
+            Dim answer As Double = baseHeight * baseWidth * height / 3
             Return formatAnswer(answer)
         End Function
 
@@ -72,13 +72,13 @@
             Return formatAnswer(answer)
         End Function
 
-        Public Function triangularPrismVolume(base As Integer, height As Integer, length As Integer) As Integer
-            Dim answer = base * height * 0.5 * length
+        Public Function trapezoidalPrismVolume(base As Integer, height As Integer, length As Integer) As Integer
+            Dim answer As Double = base * height * 0.5 * length
             Return formatAnswer(answer)
         End Function
 
-        Public Function sphereVolume(radius As Integer, height As Integer) As Integer
-            Dim answer = PI * Math.Pow(radius, 2) * height / 3
+        Public Function sphereVolume(length As Integer, height As Integer, a As Integer, b As Integer) As Integer
+            Dim answer As Double = height * (a + b) * length / 2
             Return formatAnswer(answer)
         End Function
     End Class

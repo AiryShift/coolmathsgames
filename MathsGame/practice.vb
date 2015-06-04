@@ -46,7 +46,7 @@
             pracTriangle.Show()
         Else
             GlobalVariables.currentShape = GlobalVariables.VOLUME_2
-            pracTriangularPrism.Show()
+            pracTrapezoidalPrism.Show()
         End If
         Me.Hide()
     End Sub
@@ -79,7 +79,7 @@
             pracParallelogram.Show()
         Else
             GlobalVariables.currentShape = GlobalVariables.VOLUME_5
-            pracTriangularPrism.Show()
+            pracTrapezoidalPrism.Show()
         End If
         Me.Hide()
     End Sub
