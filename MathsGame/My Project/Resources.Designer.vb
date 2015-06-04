@@ -141,6 +141,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property mainBackground() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("mainBackground", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property MapleStory_ExplorerAdventurer_Warrior() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("MapleStory_ExplorerAdventurer_Warrior", resourceCulture)
@@ -171,16 +181,6 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property maxresdefault() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("maxresdefault", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
         Friend ReadOnly Property mute() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("mute", resourceCulture)
@@ -204,6 +204,16 @@ Namespace My.Resources
         Friend ReadOnly Property parallelogramForm() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("parallelogramForm", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property practiceBackground() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("practiceBackground", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

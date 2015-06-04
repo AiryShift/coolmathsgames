@@ -32,10 +32,10 @@
     Private Sub shape1_Click(sender As Object, e As EventArgs) Handles shape1.Click
         If currentMode = SELECTED_AREA Then
             GlobalVariables.currentShape = GlobalVariables.AREA_1
-            pracCircle.Show()
+            ' pracCircle.Show()
         Else
             GlobalVariables.currentShape = GlobalVariables.VOLUME_1
-            pracCylinder.Show()
+            ' pracCylinder.Show()
         End If
         Me.Hide()
     End Sub
@@ -43,10 +43,10 @@
     Private Sub shape2_Click(sender As Object, e As EventArgs) Handles shape2.Click
         If currentMode = SELECTED_AREA Then
             GlobalVariables.currentShape = GlobalVariables.AREA_2
-            pracTriangle.Show()
+            ' pracTriangle.Show()
         Else
             GlobalVariables.currentShape = GlobalVariables.VOLUME_2
-            pracTrapezoidalPrism.Show()
+            ' pracTrapezoidalPrism.Show()
         End If
         Me.Hide()
     End Sub
@@ -54,10 +54,10 @@
     Private Sub shape3_Click(sender As Object, e As EventArgs) Handles shape3.Click
         If currentMode = SELECTED_AREA Then
             GlobalVariables.currentShape = GlobalVariables.AREA_3
-            pracRectangle.Show()
+            ' pracRectangle.Show()
         Else
             GlobalVariables.currentShape = GlobalVariables.VOLUME_3
-            pracRectangularPrism.Show()
+            ' pracRectangularPrism.Show()
         End If
         Me.Hide()
     End Sub
@@ -65,10 +65,10 @@
     Private Sub shape4_Click(sender As Object, e As EventArgs) Handles shape4.Click
         If currentMode = SELECTED_AREA Then
             GlobalVariables.currentShape = GlobalVariables.AREA_4
-            pracTrapezium.Show()
+            ' pracTrapezium.Show()
         Else
             GlobalVariables.currentShape = GlobalVariables.VOLUME_4
-            pracSphere.Show()
+            ' pracSphere.Show()
         End If
         Me.Hide()
     End Sub
@@ -76,10 +76,10 @@
     Private Sub shape5_Click(sender As Object, e As EventArgs) Handles shape5.Click
         If currentMode = SELECTED_AREA Then
             GlobalVariables.currentShape = GlobalVariables.AREA_5
-            pracParallelogram.Show()
+            ' pracParallelogram.Show()
         Else
             GlobalVariables.currentShape = GlobalVariables.VOLUME_5
-            pracTrapezoidalPrism.Show()
+            ' pracTrapezoidalPrism.Show()
         End If
         Me.Hide()
     End Sub
@@ -87,10 +87,10 @@
     Private Sub shape6_Click(sender As Object, e As EventArgs) Handles shape6.Click
         If currentMode = SELECTED_AREA Then
             GlobalVariables.currentShape = GlobalVariables.AREA_6
-            pracKite.Show()
+            ' pracKite.Show()
         Else
             GlobalVariables.currentShape = GlobalVariables.VOLUME_6
-            pracCone.Show()
+            ' pracCone.Show()
         End If
         Me.Hide()
     End Sub

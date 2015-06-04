@@ -23,17 +23,123 @@ Partial Class pracMaster
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(pracMaster))
+        Me.back = New System.Windows.Forms.Button()
+        Me.shapeDesc = New System.Windows.Forms.PictureBox()
+        Me.shapeFormula = New System.Windows.Forms.PictureBox()
+        Me.txtInput1 = New System.Windows.Forms.TextBox()
+        Me.txtInput3 = New System.Windows.Forms.TextBox()
+        Me.txtInput2 = New System.Windows.Forms.TextBox()
+        Me.lblInput1 = New System.Windows.Forms.Label()
+        Me.lblInput2 = New System.Windows.Forms.Label()
+        Me.lblInput3 = New System.Windows.Forms.Label()
+        CType(Me.shapeDesc, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.shapeFormula, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
+        '
+        'back
+        '
+        Me.back.Location = New System.Drawing.Point(1177, 645)
+        Me.back.Name = "back"
+        Me.back.Size = New System.Drawing.Size(75, 24)
+        Me.back.TabIndex = 0
+        Me.back.Text = "Back"
+        Me.back.UseVisualStyleBackColor = True
+        '
+        'shapeDesc
+        '
+        Me.shapeDesc.Location = New System.Drawing.Point(415, 12)
+        Me.shapeDesc.Name = "shapeDesc"
+        Me.shapeDesc.Size = New System.Drawing.Size(450, 450)
+        Me.shapeDesc.TabIndex = 1
+        Me.shapeDesc.TabStop = False
+        '
+        'shapeFormula
+        '
+        Me.shapeFormula.Location = New System.Drawing.Point(415, 468)
+        Me.shapeFormula.Name = "shapeFormula"
+        Me.shapeFormula.Size = New System.Drawing.Size(450, 63)
+        Me.shapeFormula.TabIndex = 2
+        Me.shapeFormula.TabStop = False
+        '
+        'txtInput1
+        '
+        Me.txtInput1.Location = New System.Drawing.Point(415, 558)
+        Me.txtInput1.Name = "txtInput1"
+        Me.txtInput1.Size = New System.Drawing.Size(100, 20)
+        Me.txtInput1.TabIndex = 3
+        '
+        'txtInput3
+        '
+        Me.txtInput3.Location = New System.Drawing.Point(765, 558)
+        Me.txtInput3.Name = "txtInput3"
+        Me.txtInput3.Size = New System.Drawing.Size(100, 20)
+        Me.txtInput3.TabIndex = 4
+        '
+        'txtInput2
+        '
+        Me.txtInput2.Location = New System.Drawing.Point(596, 558)
+        Me.txtInput2.Name = "txtInput2"
+        Me.txtInput2.Size = New System.Drawing.Size(100, 20)
+        Me.txtInput2.TabIndex = 5
+        '
+        'lblInput1
+        '
+        Me.lblInput1.AutoSize = True
+        Me.lblInput1.Location = New System.Drawing.Point(412, 534)
+        Me.lblInput1.Name = "lblInput1"
+        Me.lblInput1.Size = New System.Drawing.Size(39, 13)
+        Me.lblInput1.TabIndex = 6
+        Me.lblInput1.Text = "Label1"
+        '
+        'lblInput2
+        '
+        Me.lblInput2.AutoSize = True
+        Me.lblInput2.Location = New System.Drawing.Point(593, 534)
+        Me.lblInput2.Name = "lblInput2"
+        Me.lblInput2.Size = New System.Drawing.Size(39, 13)
+        Me.lblInput2.TabIndex = 7
+        Me.lblInput2.Text = "Label2"
+        '
+        'lblInput3
+        '
+        Me.lblInput3.AutoSize = True
+        Me.lblInput3.Location = New System.Drawing.Point(762, 534)
+        Me.lblInput3.Name = "lblInput3"
+        Me.lblInput3.Size = New System.Drawing.Size(39, 13)
+        Me.lblInput3.TabIndex = 8
+        Me.lblInput3.Text = "Label3"
         '
         'pracMaster
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1264, 681)
+        Me.Controls.Add(Me.lblInput3)
+        Me.Controls.Add(Me.lblInput2)
+        Me.Controls.Add(Me.lblInput1)
+        Me.Controls.Add(Me.txtInput2)
+        Me.Controls.Add(Me.txtInput3)
+        Me.Controls.Add(Me.txtInput1)
+        Me.Controls.Add(Me.shapeFormula)
+        Me.Controls.Add(Me.shapeDesc)
+        Me.Controls.Add(Me.back)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "pracMaster"
         Me.Text = "Try this shape!"
+        CType(Me.shapeDesc, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.shapeFormula, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
+
+    Friend WithEvents back As Button
+    Friend WithEvents shapeDesc As PictureBox
+    Friend WithEvents shapeFormula As PictureBox
+    Friend WithEvents txtInput1 As TextBox
+    Friend WithEvents txtInput3 As TextBox
+    Friend WithEvents txtInput2 As TextBox
+    Friend WithEvents lblInput1 As Label
+    Friend WithEvents lblInput2 As Label
+    Friend WithEvents lblInput3 As Label
 End Class

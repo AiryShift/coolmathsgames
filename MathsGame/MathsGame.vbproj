@@ -277,6 +277,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="4k1EDZ7.ico" />
+    <None Include="Resources\maplestory-01_179275-1920x1080.jpg" />
     <None Include="Resources\MapleStory_ExplorerAdventurer_Warrior.png" />
     <None Include="Resources\introMusic.wav" />
     <None Include="Resources\mute.png" />
