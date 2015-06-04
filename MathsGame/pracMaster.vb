@@ -132,11 +132,17 @@ Public Class pracMaster
                 answer.Text = myMath.kiteArea(a, b)
 
             Case GlobalVariables.VOLUME_1 'Cylinder
+                answer.Text = myMath.cylinderVolume(a, b)
             Case GlobalVariables.VOLUME_2 'RectangularPyramid"
+                answer.Text = myMath.rectangularPyramidVolume(a, b, c)
             Case GlobalVariables.VOLUME_3 'RectangularPrism"
+                answer.Text = myMath.rectangularPrismVolume(a, b, c)
             Case GlobalVariables.VOLUME_4 'Sphere
-            Case GlobalVariables.VOLUME_5 'TrapezoidalPrism"
+                answer.Text = myMath.sphereVolume(a)
+            Case GlobalVariables.VOLUME_5 'TrapezoidalPrism
+                answer.Text = myMath.trapezoidalPrismVolume(a, b, c)
             Case GlobalVariables.VOLUME_6 'Cone
+                answer.Text = myMath.coneVolume(a, b)
         End Select
     End Sub
 End Class

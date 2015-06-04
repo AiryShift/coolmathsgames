@@ -78,7 +78,7 @@
             Return formatAnswer(answer)
         End Function
 
-        Public Function sphereVolume(radius As Integer, height As Integer) As Integer
+        Public Function coneVolume(radius As Integer, height As Integer) As Integer
             Dim answer As Double = PI * Math.Pow(radius, 2) * height / 3
             Return formatAnswer(answer)
         End Function
