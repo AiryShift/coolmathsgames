@@ -15,6 +15,7 @@
 
     Public Const PI As Double = 3.1415926535897931
     Public Shared currentShape As String = ""
+    Public Shared soundIsMuted As Boolean = False
 
     Public Class MathFunctions
 

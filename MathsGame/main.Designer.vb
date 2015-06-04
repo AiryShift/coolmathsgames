@@ -27,6 +27,7 @@ Partial Class mainScreen
         Me.Label1 = New System.Windows.Forms.Label()
         Me.practice = New System.Windows.Forms.Button()
         Me.help = New System.Windows.Forms.Button()
+        Me.mute = New System.Windows.Forms.PictureBox()
         Me.PictureBox7 = New System.Windows.Forms.PictureBox()
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
@@ -34,6 +35,7 @@ Partial Class mainScreen
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        CType(Me.mute, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -80,6 +82,16 @@ Partial Class mainScreen
         Me.help.TabIndex = 11
         Me.help.Text = "Help and About"
         Me.help.UseVisualStyleBackColor = True
+        '
+        'mute
+        '
+        Me.mute.Image = Global.MathsGame.My.Resources.Resources.mute
+        Me.mute.Location = New System.Drawing.Point(12, 12)
+        Me.mute.Name = "mute"
+        Me.mute.Size = New System.Drawing.Size(51, 45)
+        Me.mute.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.mute.TabIndex = 12
+        Me.mute.TabStop = False
         '
         'PictureBox7
         '
@@ -145,6 +157,7 @@ Partial Class mainScreen
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1296, 682)
+        Me.Controls.Add(Me.mute)
         Me.Controls.Add(Me.help)
         Me.Controls.Add(Me.PictureBox7)
         Me.Controls.Add(Me.PictureBox6)
@@ -159,6 +172,7 @@ Partial Class mainScreen
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "mainScreen"
         Me.Text = "Welcome to Cool Maths Games!"
+        CType(Me.mute, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
@@ -181,5 +195,5 @@ Partial Class mainScreen
     Friend WithEvents PictureBox6 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox7 As System.Windows.Forms.PictureBox
     Friend WithEvents help As System.Windows.Forms.Button
-
+    Friend WithEvents mute As PictureBox
 End Class
