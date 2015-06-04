@@ -94,5 +94,6 @@
     End Sub
 
     Private Sub pi_Click(sender As Object, e As EventArgs) Handles pi.Click
+        wutpi.ShowDialog()
     End Sub
 End Class
