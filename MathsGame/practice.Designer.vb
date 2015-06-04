@@ -31,18 +31,18 @@ Partial Class practiceMain
         Me.shape4 = New System.Windows.Forms.Button()
         Me.shape5 = New System.Windows.Forms.Button()
         Me.shape6 = New System.Windows.Forms.Button()
-        Me.pbShape1 = New System.Windows.Forms.PictureBox()
-        Me.pbShape2 = New System.Windows.Forms.PictureBox()
-        Me.pbShape3 = New System.Windows.Forms.PictureBox()
-        Me.pbShape4 = New System.Windows.Forms.PictureBox()
-        Me.pbShape5 = New System.Windows.Forms.PictureBox()
         Me.pbShape6 = New System.Windows.Forms.PictureBox()
-        CType(Me.pbShape1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pbShape2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pbShape3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pbShape4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pbShape5, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pbShape5 = New System.Windows.Forms.PictureBox()
+        Me.pbShape4 = New System.Windows.Forms.PictureBox()
+        Me.pbShape3 = New System.Windows.Forms.PictureBox()
+        Me.pbShape2 = New System.Windows.Forms.PictureBox()
+        Me.pbShape1 = New System.Windows.Forms.PictureBox()
         CType(Me.pbShape6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbShape5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbShape4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbShape3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbShape2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbShape1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'area
@@ -117,59 +117,71 @@ Partial Class practiceMain
         Me.shape6.Text = "Button6"
         Me.shape6.UseVisualStyleBackColor = True
         '
-        'pbShape1
+        'pbShape6
         '
-        Me.pbShape1.BackColor = System.Drawing.Color.Transparent
-        Me.pbShape1.Location = New System.Drawing.Point(23, 12)
-        Me.pbShape1.Name = "pbShape1"
-        Me.pbShape1.Size = New System.Drawing.Size(418, 281)
-        Me.pbShape1.TabIndex = 8
-        Me.pbShape1.TabStop = False
-        '
-        'pbShape2
-        '
-        Me.pbShape2.BackColor = System.Drawing.Color.Transparent
-        Me.pbShape2.Location = New System.Drawing.Point(447, 12)
-        Me.pbShape2.Name = "pbShape2"
-        Me.pbShape2.Size = New System.Drawing.Size(413, 281)
-        Me.pbShape2.TabIndex = 9
-        Me.pbShape2.TabStop = False
-        '
-        'pbShape3
-        '
-        Me.pbShape3.BackColor = System.Drawing.Color.Transparent
-        Me.pbShape3.Location = New System.Drawing.Point(866, 12)
-        Me.pbShape3.Name = "pbShape3"
-        Me.pbShape3.Size = New System.Drawing.Size(386, 281)
-        Me.pbShape3.TabIndex = 10
-        Me.pbShape3.TabStop = False
-        '
-        'pbShape4
-        '
-        Me.pbShape4.BackColor = System.Drawing.Color.Transparent
-        Me.pbShape4.Location = New System.Drawing.Point(23, 328)
-        Me.pbShape4.Name = "pbShape4"
-        Me.pbShape4.Size = New System.Drawing.Size(418, 270)
-        Me.pbShape4.TabIndex = 11
-        Me.pbShape4.TabStop = False
+        Me.pbShape6.BackColor = System.Drawing.Color.Transparent
+        Me.pbShape6.Image = Global.MathsGame.My.Resources.Resources.ludibrium
+        Me.pbShape6.Location = New System.Drawing.Point(866, 328)
+        Me.pbShape6.Name = "pbShape6"
+        Me.pbShape6.Size = New System.Drawing.Size(386, 270)
+        Me.pbShape6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pbShape6.TabIndex = 13
+        Me.pbShape6.TabStop = False
         '
         'pbShape5
         '
         Me.pbShape5.BackColor = System.Drawing.Color.Transparent
+        Me.pbShape5.Image = Global.MathsGame.My.Resources.Resources.lith_harbour
         Me.pbShape5.Location = New System.Drawing.Point(447, 328)
         Me.pbShape5.Name = "pbShape5"
         Me.pbShape5.Size = New System.Drawing.Size(413, 270)
+        Me.pbShape5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pbShape5.TabIndex = 12
         Me.pbShape5.TabStop = False
         '
-        'pbShape6
+        'pbShape4
         '
-        Me.pbShape6.BackColor = System.Drawing.Color.Transparent
-        Me.pbShape6.Location = New System.Drawing.Point(866, 328)
-        Me.pbShape6.Name = "pbShape6"
-        Me.pbShape6.Size = New System.Drawing.Size(386, 270)
-        Me.pbShape6.TabIndex = 13
-        Me.pbShape6.TabStop = False
+        Me.pbShape4.BackColor = System.Drawing.Color.Transparent
+        Me.pbShape4.Image = Global.MathsGame.My.Resources.Resources.perion
+        Me.pbShape4.Location = New System.Drawing.Point(23, 328)
+        Me.pbShape4.Name = "pbShape4"
+        Me.pbShape4.Size = New System.Drawing.Size(418, 270)
+        Me.pbShape4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pbShape4.TabIndex = 11
+        Me.pbShape4.TabStop = False
+        '
+        'pbShape3
+        '
+        Me.pbShape3.BackColor = System.Drawing.Color.Transparent
+        Me.pbShape3.Image = Global.MathsGame.My.Resources.Resources.kerning_city
+        Me.pbShape3.Location = New System.Drawing.Point(866, 12)
+        Me.pbShape3.Name = "pbShape3"
+        Me.pbShape3.Size = New System.Drawing.Size(386, 281)
+        Me.pbShape3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pbShape3.TabIndex = 10
+        Me.pbShape3.TabStop = False
+        '
+        'pbShape2
+        '
+        Me.pbShape2.BackColor = System.Drawing.Color.Transparent
+        Me.pbShape2.Image = Global.MathsGame.My.Resources.Resources.henesys
+        Me.pbShape2.Location = New System.Drawing.Point(447, 12)
+        Me.pbShape2.Name = "pbShape2"
+        Me.pbShape2.Size = New System.Drawing.Size(413, 281)
+        Me.pbShape2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pbShape2.TabIndex = 9
+        Me.pbShape2.TabStop = False
+        '
+        'pbShape1
+        '
+        Me.pbShape1.BackColor = System.Drawing.Color.Transparent
+        Me.pbShape1.Image = Global.MathsGame.My.Resources.Resources.ellinia
+        Me.pbShape1.Location = New System.Drawing.Point(23, 12)
+        Me.pbShape1.Name = "pbShape1"
+        Me.pbShape1.Size = New System.Drawing.Size(418, 281)
+        Me.pbShape1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pbShape1.TabIndex = 8
+        Me.pbShape1.TabStop = False
         '
         'practiceMain
         '
@@ -193,12 +205,12 @@ Partial Class practiceMain
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "practiceMain"
         Me.Text = "Practice"
-        CType(Me.pbShape1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pbShape2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pbShape3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pbShape4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pbShape5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbShape6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbShape5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbShape4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbShape3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbShape2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbShape1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

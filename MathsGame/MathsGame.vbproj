@@ -376,6 +376,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="4k1EDZ7.ico" />
+    <None Include="Resources\MapleStory-BasilMarket-Screen-183880.jpg" />
+    <None Include="Resources\maplestory_background___perion_by_thehardworkingaj-d7mmsxi.png" />
+    <None Include="Resources\maplestory_background___ludibrium_by_thehardworkingaj-d7mm1bg.png" />
+    <None Include="Resources\lith_harbour_sea_view_by_kpopermaper-d5lw3w0.png" />
+    <None Include="Resources\HenesysBackyard1.png" />
+    <None Include="Resources\dualbladetown.jpg" />
     <None Include="Resources\MapleStory_ExplorerAdventurer_Warrior.png" />
     <None Include="Resources\introMusic.wav" />
     <None Include="Resources\mute.png" />
