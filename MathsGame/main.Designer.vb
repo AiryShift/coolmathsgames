@@ -24,7 +24,6 @@ Partial Class mainScreen
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(mainScreen))
         Me.friendlyExit = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.practice = New System.Windows.Forms.Button()
         Me.help = New System.Windows.Forms.Button()
         Me.mute = New System.Windows.Forms.PictureBox()
@@ -53,17 +52,6 @@ Partial Class mainScreen
         Me.friendlyExit.TabIndex = 1
         Me.friendlyExit.Text = "Exit"
         Me.friendlyExit.UseVisualStyleBackColor = True
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Comic Sans MS", 72.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(208, 441)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(755, 135)
-        Me.Label1.TabIndex = 2
-        Me.Label1.Text = "Choose a shape!"
         '
         'practice
         '
@@ -166,7 +154,6 @@ Partial Class mainScreen
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.practice)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.friendlyExit)
         Me.Controls.Add(Me.PictureBox1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
@@ -181,12 +168,10 @@ Partial Class mainScreen
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents friendlyExit As System.Windows.Forms.Button
-    Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents practice As System.Windows.Forms.Button
     Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox3 As System.Windows.Forms.PictureBox
