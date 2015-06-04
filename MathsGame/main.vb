@@ -27,7 +27,7 @@
     End Function
 
     Private Sub playMusic()
-        If rand(0, 1) = 0 Then
+        If rand(0, 2) = 0 Then
             My.Computer.Audio.Play(My.Resources.henesy, AudioPlayMode.BackgroundLoop)
         Else
             My.Computer.Audio.Play(My.Resources.introMusic, AudioPlayMode.BackgroundLoop)

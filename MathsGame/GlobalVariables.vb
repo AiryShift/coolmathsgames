@@ -73,13 +73,13 @@
             Return formatAnswer(answer)
         End Function
 
-        Public Function trapezoidalPrismVolume(base As Integer, height As Integer, length As Integer) As Integer
-            Dim answer As Double = base * height * 0.5 * length
+        Public Function trapezoidalPrismVolume(length As Integer, height As Integer, a As Integer, b As Integer) As Integer
+            Dim answer As Double = height * (a + b) * length / 2
             Return formatAnswer(answer)
         End Function
 
-        Public Function sphereVolume(length As Integer, height As Integer, a As Integer, b As Integer) As Integer
-            Dim answer As Double = height * (a + b) * length / 2
+        Public Function sphereVolume(radius As Integer, height As Integer) As Integer
+            Dim answer As Double = PI * Math.Pow(radius, 2) * height / 3
             Return formatAnswer(answer)
         End Function
     End Class
