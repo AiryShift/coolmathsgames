@@ -292,6 +292,75 @@
   <ItemGroup>
     <None Include="Resources\MapleStory.SVG.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circleForm.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cylinder.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cylinderForm.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kite.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kiteForm.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MapleStory.SVG1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parallelogram.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parallelogramForm.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rectangle.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rectangleForm.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rectangularPrism.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rectangularPrismForm.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rectangularPyramid.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rectangularPyramidForm.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sphere.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sphereForm.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trapezium.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trapeziumForm.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trapezoidalPrism.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trapezoidalPrismForm.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\triangle.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\triangleForm.JPG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

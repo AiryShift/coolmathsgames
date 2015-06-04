@@ -63,9 +63,229 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property circle() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("circle", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property circleForm() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("circleForm", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property cylinder() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("cylinder", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property cylinderForm() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("cylinderForm", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property kite() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("kite", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property kiteForm() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("kiteForm", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property MapleStory_SVG() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("MapleStory_SVG", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property parallelogram() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("parallelogram", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property parallelogramForm() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("parallelogramForm", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property rectangle() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("rectangle", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property rectangleForm() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("rectangleForm", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property rectangularPrism() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("rectangularPrism", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property rectangularPrismForm() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("rectangularPrismForm", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property rectangularPyramid() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("rectangularPyramid", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property rectangularPyramidForm() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("rectangularPyramidForm", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property sphere() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("sphere", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property sphereForm() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("sphereForm", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property trapezium() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("trapezium", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property trapeziumForm() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("trapeziumForm", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property trapezoidalPrism() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("trapezoidalPrism", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property trapezoidalPrismForm() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("trapezoidalPrismForm", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property triangle() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("triangle", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property triangleForm() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("triangleForm", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

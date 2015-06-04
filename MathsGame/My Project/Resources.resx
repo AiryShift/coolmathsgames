@@ -121,4 +121,70 @@
   <data name="MapleStory_SVG" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MapleStory.SVG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="circle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circle.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="circleForm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circleForm.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cylinder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cylinder.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cylinderForm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cylinderForm.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kite.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kiteForm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kiteForm.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="parallelogram" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\parallelogram.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="parallelogramForm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\parallelogramForm.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rectangle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rectangle.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rectangleForm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rectangleForm.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rectangularPrism" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rectangularPrism.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rectangularPrismForm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rectangularPrismForm.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rectangularPyramid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rectangularPyramid.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rectangularPyramidForm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rectangularPyramidForm.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sphere" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sphere.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sphereForm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sphereForm.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trapezium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trapezium.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trapeziumForm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trapeziumForm.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trapezoidalPrism" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trapezoidalPrism.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trapezoidalPrismForm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trapezoidalPrismForm.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="triangle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\triangle.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="triangleForm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\triangleForm.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
