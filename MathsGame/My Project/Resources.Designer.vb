@@ -83,6 +83,26 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property cone() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("cone", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property coneForm() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("coneForm", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property cylinder() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("cylinder", resourceCulture)
@@ -261,9 +281,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property practiceBackground() As System.Drawing.Bitmap
+        Friend ReadOnly Property perion() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("practiceBackground", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("perion", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -271,9 +291,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property perion() As System.Drawing.Bitmap
+        Friend ReadOnly Property practiceBackground() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("perion", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("practiceBackground", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

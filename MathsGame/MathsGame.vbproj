@@ -277,6 +277,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="4k1EDZ7.ico" />
+    <None Include="Resources\coneForm.JPG" />
+    <None Include="Resources\cone.JPG" />
     <None Include="Resources\MapleStory-BasilMarket-Screen-183880.jpg" />
     <None Include="Resources\maplestory_background___perion_by_thehardworkingaj-d7mmsxi.png" />
     <None Include="Resources\maplestory_background___ludibrium_by_thehardworkingaj-d7mm1bg.png" />
