@@ -16,7 +16,7 @@
     End Sub
 
     Private Sub mainScreen_Load(sender As Object, e As EventArgs) Handles Me.Load
-        Me.BackgroundImage = My.Resources.maxresdefault
+        Me.BackgroundImage = My.Resources.mainBackground
         PictureBox1.Image = My.Resources.mathstory_transparent
         playMusic()
     End Sub

@@ -152,6 +152,12 @@
     <Compile Include="pracKite.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="pracMaster.Designer.vb">
+      <DependentUpon>pracMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pracMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="pracParallelogram.Designer.vb">
       <DependentUpon>pracParallelogram.vb</DependentUpon>
     </Compile>
@@ -168,6 +174,12 @@
       <DependentUpon>pracRectangularPrism.vb</DependentUpon>
     </Compile>
     <Compile Include="pracRectangularPrism.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pracRectangularPyramid.Designer.vb">
+      <DependentUpon>pracRectangularPyramid.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pracRectangularPyramid.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="pracSphere.Designer.vb">
@@ -188,22 +200,16 @@
     <Compile Include="pracTrapezium.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="pracTriangle.Designer.vb">
-      <DependentUpon>pracTriangle.vb</DependentUpon>
-    </Compile>
-    <Compile Include="pracTriangle.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="pracTrapezoidalPrism.Designer.vb">
       <DependentUpon>pracTrapezoidalPrism.vb</DependentUpon>
     </Compile>
     <Compile Include="pracTrapezoidalPrism.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="pracRectangularPyramid.Designer.vb">
-      <DependentUpon>pracRectangularPyramid.vb</DependentUpon>
+    <Compile Include="pracTriangle.Designer.vb">
+      <DependentUpon>pracTriangle.vb</DependentUpon>
     </Compile>
-    <Compile Include="pracRectangularPyramid.vb">
+    <Compile Include="pracTriangle.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
@@ -226,41 +232,11 @@
     <EmbeddedResource Include="pracCircle.resx">
       <DependentUpon>pracCircle.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="pracCone.resx">
-      <DependentUpon>pracCone.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="pracCylinder.resx">
-      <DependentUpon>pracCylinder.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="pracKite.resx">
-      <DependentUpon>pracKite.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="pracParallelogram.resx">
-      <DependentUpon>pracParallelogram.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="pracRectangle.resx">
-      <DependentUpon>pracRectangle.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="pracRectangularPrism.resx">
-      <DependentUpon>pracRectangularPrism.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="pracSphere.resx">
-      <DependentUpon>pracSphere.vb</DependentUpon>
+    <EmbeddedResource Include="pracMaster.resx">
+      <DependentUpon>pracMaster.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="practice.resx">
       <DependentUpon>practice.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="pracTrapezium.resx">
-      <DependentUpon>pracTrapezium.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="pracTriangle.resx">
-      <DependentUpon>pracTriangle.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="pracTrapezoidalPrism.resx">
-      <DependentUpon>pracTrapezoidalPrism.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="pracRectangularPyramid.resx">
-      <DependentUpon>pracRectangularPyramid.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
