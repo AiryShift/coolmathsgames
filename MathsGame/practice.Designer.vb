@@ -31,13 +31,14 @@ Partial Class practiceMain
         Me.shape4 = New System.Windows.Forms.Button()
         Me.shape5 = New System.Windows.Forms.Button()
         Me.shape6 = New System.Windows.Forms.Button()
+        Me.back = New System.Windows.Forms.Button()
         Me.pbShape6 = New System.Windows.Forms.PictureBox()
         Me.pbShape5 = New System.Windows.Forms.PictureBox()
         Me.pbShape4 = New System.Windows.Forms.PictureBox()
         Me.pbShape3 = New System.Windows.Forms.PictureBox()
         Me.pbShape2 = New System.Windows.Forms.PictureBox()
         Me.pbShape1 = New System.Windows.Forms.PictureBox()
-        Me.back = New System.Windows.Forms.Button()
+        Me.pi = New System.Windows.Forms.Button()
         CType(Me.pbShape6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbShape5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbShape4, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -118,6 +119,15 @@ Partial Class practiceMain
         Me.shape6.Text = "Button6"
         Me.shape6.UseVisualStyleBackColor = True
         '
+        'back
+        '
+        Me.back.Location = New System.Drawing.Point(1177, 646)
+        Me.back.Name = "back"
+        Me.back.Size = New System.Drawing.Size(75, 23)
+        Me.back.TabIndex = 14
+        Me.back.Text = "Back"
+        Me.back.UseVisualStyleBackColor = True
+        '
         'pbShape6
         '
         Me.pbShape6.BackColor = System.Drawing.Color.Transparent
@@ -184,20 +194,21 @@ Partial Class practiceMain
         Me.pbShape1.TabIndex = 8
         Me.pbShape1.TabStop = False
         '
-        'back
+        'pi
         '
-        Me.back.Location = New System.Drawing.Point(1177, 646)
-        Me.back.Name = "back"
-        Me.back.Size = New System.Drawing.Size(75, 23)
-        Me.back.TabIndex = 14
-        Me.back.Text = "Back"
-        Me.back.UseVisualStyleBackColor = True
+        Me.pi.Location = New System.Drawing.Point(23, 646)
+        Me.pi.Name = "pi"
+        Me.pi.Size = New System.Drawing.Size(176, 23)
+        Me.pi.TabIndex = 15
+        Me.pi.Text = "What's this pi thing?"
+        Me.pi.UseVisualStyleBackColor = True
         '
         'practiceMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1264, 681)
+        Me.Controls.Add(Me.pi)
         Me.Controls.Add(Me.back)
         Me.Controls.Add(Me.pbShape6)
         Me.Controls.Add(Me.pbShape5)
@@ -240,4 +251,5 @@ Partial Class practiceMain
     Friend WithEvents pbShape5 As PictureBox
     Friend WithEvents pbShape6 As PictureBox
     Friend WithEvents back As Button
+    Friend WithEvents pi As Button
 End Class

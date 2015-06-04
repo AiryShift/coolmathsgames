@@ -92,4 +92,7 @@
         Me.Hide()
         mainScreen.Show()
     End Sub
+
+    Private Sub pi_Click(sender As Object, e As EventArgs) Handles pi.Click
+    End Sub
 End Class
