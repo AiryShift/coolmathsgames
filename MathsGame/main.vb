@@ -14,4 +14,9 @@
     Private Sub help_Click(sender As Object, e As EventArgs) Handles help.Click
         about.ShowDialog()
     End Sub
+
+    Private Sub mainScreen_Load(sender As Object, e As EventArgs) Handles Me.Load
+        Me.BackgroundImage = My.Resources.maxresdefault
+        PictureBox1.Image = My.Resources.mathstory_transparent
+    End Sub
 End Class
