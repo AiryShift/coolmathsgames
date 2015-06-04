@@ -22,6 +22,7 @@ Partial Class mainScreen
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(mainScreen))
         Me.friendlyExit = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.practice = New System.Windows.Forms.Button()
@@ -143,7 +144,7 @@ Partial Class mainScreen
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(1264, 682)
+        Me.ClientSize = New System.Drawing.Size(1296, 682)
         Me.Controls.Add(Me.help)
         Me.Controls.Add(Me.PictureBox7)
         Me.Controls.Add(Me.PictureBox6)
@@ -155,6 +156,7 @@ Partial Class mainScreen
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.friendlyExit)
         Me.Controls.Add(Me.PictureBox1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "mainScreen"
         Me.Text = "Welcome to Cool Maths Games!"
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
