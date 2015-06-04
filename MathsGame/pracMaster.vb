@@ -1,11 +1,13 @@
-﻿Public Class pracMaster
+﻿Imports System.Text.RegularExpressions
+Public Class pracMaster
+    Dim myMath As Object = New GlobalVariables.MathFunctions()
     Private Sub pracMaster_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.BackgroundImage = My.Resources.practiceBackground
     End Sub
 
     Private Sub hide2()
         lblInput2.Hide()
-        txtInput3.Hide()
+        txtInput2.Hide()
     End Sub
 
     Private Sub hide3()
@@ -13,7 +15,7 @@
         txtInput3.Hide()
     End Sub
 
-    Private Sub initialize(sender As Object, e As EventArgs) Handles MyBase.GotFocus
+    Private Sub initialize(sender As Object, e As EventArgs) Handles Me.VisibleChanged
         lblInput1.Show()
         lblInput2.Show()
         lblInput3.Show()
@@ -41,7 +43,7 @@
                 lblInput1.Text = "Length"
                 lblInput2.Text = "Width"
                 shapeDesc.Image = My.Resources.rectangle
-                shapeFormula.Image = My.Resources.rectangle
+                shapeFormula.Image = My.Resources.rectangleForm
             Case GlobalVariables.AREA_4
                 lblInput1.Text = "Height"
                 lblInput2.Text = "a"
@@ -97,5 +99,44 @@
     Private Sub back_Click(sender As Object, e As EventArgs) Handles back.Click
         Me.Hide()
         practiceMain.Show()
+    End Sub
+
+    Private Function checkInput(strIn As String) As String
+        Dim rgx As Regex = New Regex("^[0-9]{1,2}")
+        Dim match As Match = rgx.Match(strIn)
+        If match.Success Then
+            Return match.Value
+        End If
+        Return "0"
+    End Function
+
+    Private Sub txtInput1_TextChanged(sender As Object, e As EventArgs) Handles txtInput1.TextChanged, txtInput2.TextChanged, txtInput3.TextChanged
+        txtInput1.Text = checkInput(txtInput1.Text)
+        txtInput2.Text = checkInput(txtInput2.Text)
+        txtInput3.Text = checkInput(txtInput3.Text)
+        Dim a As Integer = CInt(txtInput1.Text)
+        Dim b As Integer = CInt(txtInput2.Text)
+        Dim c As Integer = CInt(txtInput3.Text)
+        Select Case GlobalVariables.currentShape
+            Case GlobalVariables.AREA_1 'Circle
+                answer.Text = myMath.circleArea(a)
+            Case GlobalVariables.AREA_2 'Triangle
+                answer.Text = myMath.triangleArea(a, b)
+            Case GlobalVariables.AREA_3 'Rectangle
+                answer.Text = myMath.rectangleArea(a, b)
+            Case GlobalVariables.AREA_4 'Trapezium
+                answer.Text = myMath.trapeziumArea(a, b, c)
+            Case GlobalVariables.AREA_5 'Parallelogram
+                answer.Text = myMath.parallelogramArea(a, b)
+            Case GlobalVariables.AREA_6 'Kite
+                answer.Text = myMath.kiteArea(a, b)
+
+            Case GlobalVariables.VOLUME_1 'Cylinder
+            Case GlobalVariables.VOLUME_2 'RectangularPyramid"
+            Case GlobalVariables.VOLUME_3 'RectangularPrism"
+            Case GlobalVariables.VOLUME_4 'Sphere
+            Case GlobalVariables.VOLUME_5 'TrapezoidalPrism"
+            Case GlobalVariables.VOLUME_6 'Cone
+        End Select
     End Sub
 End Class
