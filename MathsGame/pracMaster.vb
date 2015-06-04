@@ -2,7 +2,7 @@
 Public Class pracMaster
     Dim myMath As Object = New GlobalVariables.MathFunctions()
     Private Sub pracMaster_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Me.BackgroundImage = My.Resources.practiceBackground
+        Me.BackgroundImage = My.Resources.Wiki_background
     End Sub
 
     Private Sub hide2()

@@ -232,4 +232,7 @@
   <data name="coneForm" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\coneForm.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Wiki_background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Wiki-background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

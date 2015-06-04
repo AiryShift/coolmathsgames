@@ -87,4 +87,9 @@
         End If
         openPracticeSheet()
     End Sub
+
+    Private Sub back_Click(sender As Object, e As EventArgs) Handles back.Click
+        Me.Hide()
+        mainScreen.Show()
+    End Sub
 End Class
