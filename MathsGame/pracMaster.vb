@@ -87,6 +87,11 @@ Public Class pracMaster
                 shapeDesc.Image = My.Resources.sphere
                 shapeFormula.Image = My.Resources.sphereForm
             Case GlobalVariables.VOLUME_5
+                lblInput1.Text = "Width (here we assume height = 2)"
+                lblInput2.Text = "a"
+                lblInput3.Text = "b"
+                shapeDesc.Image = My.Resources.trapezoidalPrism
+                shapeFormula.Image = My.Resources.trapezoidalPrismForm
             Case GlobalVariables.VOLUME_6
                 hide3()
                 lblInput1.Text = "Radius"
@@ -140,7 +145,7 @@ Public Class pracMaster
             Case GlobalVariables.VOLUME_4 'Sphere
                 answer.Text = myMath.sphereVolume(a)
             Case GlobalVariables.VOLUME_5 'TrapezoidalPrism
-                answer.Text = myMath.trapezoidalPrismVolume(a, b, c)
+                answer.Text = myMath.trapezoidalPrismVolume(a, 2, b, c)
             Case GlobalVariables.VOLUME_6 'Cone
                 answer.Text = myMath.coneVolume(a, b)
         End Select
