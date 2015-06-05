@@ -68,7 +68,7 @@ Partial Class mainScreen
         Me.help.Name = "help"
         Me.help.Size = New System.Drawing.Size(170, 23)
         Me.help.TabIndex = 11
-        Me.help.Text = "Help and About"
+        Me.help.Text = "About"
         Me.help.UseVisualStyleBackColor = True
         '
         'mute
