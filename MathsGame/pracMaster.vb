@@ -149,18 +149,30 @@ Public Class pracMaster
     Private Sub info_Click(sender As Object, e As EventArgs) Handles Me.VisibleChanged
         Select Case GlobalVariables.currentShape
             Case GlobalVariables.AREA_1 'Circle
+                info.Image = My.Resources.circleAbout
             Case GlobalVariables.AREA_2 'Triangle
+                info.Image = My.Resources.triangleAbout
             Case GlobalVariables.AREA_3 'Rectangle
+                info.Image = My.Resources.rectangleAbout
             Case GlobalVariables.AREA_4 'Trapezium
+                info.Image = My.Resources.trapeziumAbout
             Case GlobalVariables.AREA_5 'Parallelogram
+                info.Image = My.Resources.parallelogramAbout
             Case GlobalVariables.AREA_6 'Kite
+                info.Image = My.Resources.kiteAbout
 
             Case GlobalVariables.VOLUME_1 'Cylinder
-            Case GlobalVariables.VOLUME_2 'RectangularPyramid"
-            Case GlobalVariables.VOLUME_3 'RectangularPrism"
+                info.Image = My.Resources.cylinderAbout
+            Case GlobalVariables.VOLUME_2 'RectangularPyramid
+                info.Image = My.Resources.rectangularPyramidAbout
+            Case GlobalVariables.VOLUME_3 'RectangularPrism
+                info.Image = My.Resources.rectangularPrismAbout
             Case GlobalVariables.VOLUME_4 'Sphere
+                info.Image = My.Resources.sphereAbout
             Case GlobalVariables.VOLUME_5 'TrapezoidalPrism
+                info.Image = My.Resources.trapezoidalPrismAbout
             Case GlobalVariables.VOLUME_6 'Cone
+                info.Image = My.Resources.coneAbout
         End Select
     End Sub
 End Class

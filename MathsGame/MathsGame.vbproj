@@ -286,6 +286,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="4k1EDZ7.ico" />
+    <None Include="Resources\trapezoidalPrismAbout.JPG" />
+    <None Include="Resources\triangleAbout.JPG" />
+    <None Include="Resources\trapeziumAbout.JPG" />
+    <None Include="Resources\sphereAbout.JPG" />
+    <None Include="Resources\rectangularPyramidAbout.JPG" />
+    <None Include="Resources\rectangularPrismAbout.JPG" />
+    <None Include="Resources\rectangleAbout.JPG" />
+    <None Include="Resources\parallelogramAbout.JPG" />
+    <None Include="Resources\kiteAbout.JPG" />
+    <None Include="Resources\cylinderAbout.JPG" />
+    <None Include="Resources\coneAbout.JPG" />
+    <None Include="Resources\circleAbout.JPG" />
     <None Include="Resources\piExplained.JPG" />
     <None Include="Resources\Wiki-background.png" />
     <None Include="Resources\coneForm.JPG" />

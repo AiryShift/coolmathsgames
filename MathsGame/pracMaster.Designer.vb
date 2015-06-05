@@ -118,6 +118,7 @@ Partial Class pracMaster
         '
         'info
         '
+        Me.info.BackColor = System.Drawing.Color.Transparent
         Me.info.Image = CType(resources.GetObject("info.Image"), System.Drawing.Image)
         Me.info.Location = New System.Drawing.Point(12, 12)
         Me.info.Name = "info"
